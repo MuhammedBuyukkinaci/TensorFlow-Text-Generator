@@ -4,9 +4,9 @@ import numpy as np
 #set hyperparameters
 max_len = 40
 step = 2
-num_hidden = 200
+num_units = 128
 learning_rate = 0.001
-batch_size = 100
+batch_size = 200
 epoch = 60
 temperature = 0.5
 
@@ -48,7 +48,7 @@ def rnn(x, weight, bias, len_unique_chars):
     x = tf.reshape(x, [-1, len_unique_chars])
     x = tf.split(x, max_len, 0)
 
-    cell = tf.contrib.rnn.BasicLSTMCell(num_hidden, forget_bias=1.0)
+    cell = tf.contrib.rnn.BasicLSTMCell(num_units, forget_bias=1.0)
     outputs, states = tf.contrib.rnn.static_rnn(cell, x, dtype=tf.float32)
     prediction = tf.matmul(outputs[-1], weight) + bias
     return prediction
@@ -68,7 +68,7 @@ def run(train_data, target_data, unique_chars, len_unique_chars):
     '''
     x = tf.placeholder("float", [None, max_len, len_unique_chars])
     y = tf.placeholder("float", [None, len_unique_chars])
-    weight = tf.Variable(tf.random_normal([num_hidden, len_unique_chars]))
+    weight = tf.Variable(tf.random_normal([num_units, len_unique_chars]))
     bias = tf.Variable(tf.random_normal([len_unique_chars]))
 
     prediction = rnn(x, weight, bias, len_unique_chars)
