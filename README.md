@@ -21,4 +21,6 @@ Guclu bir GPU üzerinde calistirmanizi tavsiye ederim.
 fork ettigim bu link'e de bakabilirsiniz. cok guzel hazirlanmis bir .py dosyasi.
 Source: https://gist.github.com/MBoustani/437cea275fa9d40c9e60eac9ba71456c
 
-
+git clone https://github.com/MuhammedBuyukkinaci/TensorFlow-Text-Generator.git
+cd ./TensorFlow-Text-Generator
+python tensorflow_text_generator.py
