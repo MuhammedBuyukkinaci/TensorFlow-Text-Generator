@@ -18,6 +18,7 @@ Guclu bir GPU üzerinde calistirmanizi tavsiye ederim.
 "output_cb.txt" dosyasi ise 50 epoch boyunca modelin urettigi outputlardir. Yaklasik olarak 50 x 3000 = 150000 characterden olusan bir txt dosyasidir. 
 
 
-
+fork ettigim bu link'e de bakabilirsiniz. cok guzel hazirlanmis bir .py dosyasi.
+Source: https://gist.github.com/MBoustani/437cea275fa9d40c9e60eac9ba71456c
 
 
