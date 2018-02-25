@@ -14,7 +14,8 @@ def read_data(file_name):
     '''
      open and read text file
     '''
-    text = open(file_name, 'r',encoding="utf8").read()
+    #eğer ki train edeceginiz metin turkce ise, aşağıdaki satır text = open(file_name, 'r',encoding="utf8").read() olmalı.
+    text = open(file_name, 'r').read()
     return text.lower()
 
 def making_one_hot(text):
@@ -119,6 +120,6 @@ def run(train_data, target_data, unique_chars, len_unique_chars):
     sess.close()
 if __name__ == "__main__":
     #get data from https://s3.amazonaws.com/text-datasets/nietzsche.txt
-    text = read_data('cb.txt')
+    text = read_data('hp_text.txt')
     train_data, target_data, unique_chars, len_unique_chars = making_one_hot(text)
     run(train_data, target_data, unique_chars, len_unique_chars)
