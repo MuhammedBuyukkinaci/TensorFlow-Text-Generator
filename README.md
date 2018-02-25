@@ -1,5 +1,9 @@
 TensorFlow-Text-Generator:
 
+blog yazısına aşagıdaki linkten ulaşabilirsiniz:
+
+https://medium.com/@mubuyuk51/tensorflow-ile-yaz%C4%B1-%C3%BCretmek-f7bdc8b1f453
+
 "hp_text.txt" dosyası, "Harry Potter and the Sorcerer's Stone" isimli kitabın text halidir.
 http://www.glozman.com/TextPages/Harry%20Potter%201%20-%20Sorcerer's%20Stone.txt
 
