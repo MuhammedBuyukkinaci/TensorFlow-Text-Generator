@@ -1,24 +1,22 @@
-TensorFlow-Text-Generator:
+# TensorFlow-Text-Generator
 
-blog yazısına aşagıdaki linkten ulaşabilirsiniz:
+This is a multiclass image classification project using Convolutional Neural Networks and TensorFlow API (no Keras) on Python.
 
-https://medium.com/@mubuyuk51/tensorflow-ile-yaz%C4%B1-%C3%BCretmek-f7bdc8b1f453
+[Read all story in Turkish](https://medium.com/@mubuyuk51/tensorflow-ile-yaz%C4%B1-%C3%BCretmek-f7bdc8b1f453).
 
-"hp_text.txt" dosyası, "Harry Potter and the Sorcerer's Stone" isimli kitabın text halidir.
-http://www.glozman.com/TextPages/Harry%20Potter%201%20-%20Sorcerer's%20Stone.txt
+[Txt file in this project](http://www.glozman.com/TextPages/Harry%20Potter%201%20-%20Sorcerer's%20Stone.txt).
 
-windows 10 home, python 3.6 uzerinde yazilmistir.
+# Hardware and Software
+Windows 10 Home
 
-Dependencies:
-tensorflow 
-numpy
+GTX 1050
 
-Guclu bir GPU üzerinde calistirmanizi tavsiye ederim. 
+16 GB RAM
 
-fork ettigim bu link'e de bakabilirsiniz. cok guzel hazirlanmis bir .py dosyasi.
-Source: https://gist.github.com/MBoustani/437cea275fa9d40c9e60eac9ba71456c
+# Fork
+Forked from[here](https://gist.github.com/MBoustani/437cea275fa9d40c9e60eac9ba71456c). 
 
-Aşağıdaki 3 satırı command'line'a yazarsanız, terminal'den kodu çalıştırabilirsiniz.
+# Train
 
 git clone https://github.com/MuhammedBuyukkinaci/TensorFlow-Text-Generator.git
 
