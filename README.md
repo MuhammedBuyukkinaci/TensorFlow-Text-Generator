@@ -14,7 +14,7 @@ GTX 1050
 16 GB RAM
 
 # Fork
-Forked from[here](https://gist.github.com/MBoustani/437cea275fa9d40c9e60eac9ba71456c). 
+Forked from [here](https://gist.github.com/MBoustani/437cea275fa9d40c9e60eac9ba71456c). 
 
 # Train
 
