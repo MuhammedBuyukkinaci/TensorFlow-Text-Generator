@@ -13,9 +13,9 @@ This is a text generation project using LSTM networks and TensorFlow API (no Ker
 
 - **16 GB RAM
 
-- ** i7 7700U CPU
+- **i7 7700U CPU
 
-- ** Python 3.6
+- **Python 3.6
 
 # Fork
 Forked from [here](https://gist.github.com/MBoustani/437cea275fa9d40c9e60eac9ba71456c). 
