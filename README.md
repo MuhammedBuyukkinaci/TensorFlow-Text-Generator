@@ -7,15 +7,15 @@ This is a text generation project using LSTM networks and TensorFlow API (no Ker
 [Txt file used in this project](http://www.glozman.com/TextPages/Harry%20Potter%201%20-%20Sorcerer's%20Stone.txt).
 
 # Hardware and Software
-- **Windows 10 Home
+- Windows 10 Home
 
-- **GTX 1050
+- GTX 1050
 
-- **16 GB RAM
+- 16 GB RAM
 
-- **i7 7700U CPU
+- i7 7700U CPU
 
-- **Python 3.6
+- Python 3.6
 
 # Fork
 Forked from [here](https://gist.github.com/MBoustani/437cea275fa9d40c9e60eac9ba71456c). 
