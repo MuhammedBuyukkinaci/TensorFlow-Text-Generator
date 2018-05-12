@@ -6,6 +6,21 @@ This is a text generation project using LSTM networks and TensorFlow API (no Ker
 
 [Txt file used in this project](http://www.glozman.com/TextPages/Harry%20Potter%201%20-%20Sorcerer's%20Stone.txt).
 
+# Training
+
+```git clone https://github.com/MuhammedBuyukkinaci/TensorFlow-Text-Generator.git```
+
+```cd ./TensorFlow-Text-Generator```
+
+```python tensorflow_text_generator.py```
+
+# Notebook
+
+You can get .ipynb file from [here](https://github.com/MuhammedBuyukkinaci/My-Jupyter-Files-1/blob/master/HP_text_generator.ipynb)
+
+# Fork
+Forked from [here](https://gist.github.com/MBoustani/437cea275fa9d40c9e60eac9ba71456c).
+
 # Hardware and Software
 - Windows 10 Home
 
@@ -16,19 +31,3 @@ This is a text generation project using LSTM networks and TensorFlow API (no Ker
 - i7 7700U CPU
 
 - Python 3.6
-
-# Fork
-Forked from [here](https://gist.github.com/MBoustani/437cea275fa9d40c9e60eac9ba71456c). 
-
-# Training
-
-```git clone https://github.com/MuhammedBuyukkinaci/TensorFlow-Text-Generator.git```
-
-```cd ./TensorFlow-Text-Generator```
-
-```python tensorflow_text_generator.py```
-
-# Jupyter
-
-You can get .ipynb file from [here](https://github.com/MuhammedBuyukkinaci/My-Jupyter-Files-1/blob/master/HP_text_generator.ipynb)
-
