@@ -28,8 +28,7 @@ Forked from [here](https://gist.github.com/MBoustani/437cea275fa9d40c9e60eac9ba7
 
 ```python tensorflow_text_generator.py```
 
-or
+# Jupyter
 
-```cd ./TensorFlow-Text-Generator```
+You can get .ipynb file from [here](https://github.com/MuhammedBuyukkinaci/My-Jupyter-Files-1/blob/master/HP_text_generator.ipynb)
 
-```jupyter lab``` or ```jupyter notebook```
