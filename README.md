@@ -19,7 +19,7 @@ This is a text generation project using LSTM networks and TensorFlow API (no Ker
 You can get .ipynb file from [here](https://github.com/MuhammedBuyukkinaci/My-Jupyter-Files-1/blob/master/HP_text_generator.ipynb)
 
 # Fork
-Forked from [here](https://gist.github.com/MBoustani/437cea275fa9d40c9e60eac9ba71456c).
+Forked from [here](https://gist.github.com/MBoustani/437cea275fa9d40c9e60eac9ba71456c) .
 
 # Hardware and Software
 - Windows 10 Home
